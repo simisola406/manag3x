@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+}
+.navbar {
+  padding: 0.8rem;
+  position: relative;
+  width: 1490px;
+  height: 79px;
+  left: 0px;
+  top: 1px;
+
+  background: #0392ce;
+}
