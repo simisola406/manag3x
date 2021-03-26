@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
 * {
   box-sizing: border-box;
-  /* border: 1px solid red; */
 }
 html {
   font-size: 10px;
 }
+/* UTILITIES */
 .center {
   text-align: center;
 }
@@ -22,17 +22,50 @@ html {
 .v-center {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 button {
   cursor: pointer;
 }
-/* .padding {
-  width: 90%;
-  margin: 0 auto;
-} */
+/* BUTTON COMPONENT */
+
+.btn {
+  background: #a7194b;
+  height: 6.2rem;
+  width: 19.6rem;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  font-size: 2rem;
+}
+
+/* UTILITIES END */
+
 body {
   font-family: Manrope;
 }
+
+/*<!-- Manage3X SECTION -->*/
+
+.manag3x {
+  height: 620px;
+  background: #ffffff;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+}
+.col-1-of-3 {
+  height: 30rem;
+  background: #0392ce;
+  width: 30%;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.manag3x .col-1-of-3 p {
+  font-size: 48px;
+  color: #fff;
+  font-weight: 800;
+}
+
+/* OUR SOLUTION STYLE */
 
 .section_title {
   font-size: 4.8rem;
@@ -55,16 +88,6 @@ body {
   font-size: 1.6rem;
 }
 
-.btn {
-  background: #a7194b;
-  height: 6.2rem;
-  width: 19.6rem;
-  border-radius: 8px;
-  color: #fff;
-  border: none;
-  font-size: 2rem;
-}
-
 .finance {
   height: 160px;
   width: 390px;
@@ -75,40 +98,55 @@ body {
 }
 
 .section_form_text {
-    padding: 5rem;
+  /* padding: 5rem; */
+  width: 80%;
 }
-.section_form_text h3{
-    font-size: 3rem;
-    color: #c4c4c4;
+.section_form_text h3 {
+  font-size: 3rem;
+  color: #c4c4c4;
 }
 .section_form form {
   text-align: center;
 }
-.section_form_text form p{
-    margin: 4rem 0;
+.section_form_text form p {
+  margin: 4rem 0;
 }
-.section_form input,textarea {
+.section_form input,
+textarea {
   font-size: 1.8rem;
   width: 100%;
   padding: 2rem;
   border: 1px solid #012481;
   outline: none;
 }
-.section_form input::placeholder,textarea::placeholder {
+.section_form input::placeholder,
+textarea::placeholder {
   color: #c4c4c4;
   font-size: 1.8rem;
 }
 .section_form textarea {
-
-  
   height: 130px;
-outline: none;
+  outline: none;
   border: 1px solid #012481;
-  padding:  2rem ;
-
+  padding: 2rem;
 }
 
-
-.mobile section{
-    background: #C4C4C4;
+.mobile_section {
+  background: #c4c4c4;
+  position: relative;
+}
+.mobile_section h2 {
+  max-width: 540px;
+  color: #18191f;
+  font-size: 4.8rem;
+}
+.mobile_section p {
+  max-width: 540px;
+  font-size: 1.8rem;
+}
+.mobile_section phone {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
