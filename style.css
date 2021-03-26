@@ -81,7 +81,7 @@
 }
 /*Intro styling*/
 .intro {
-  position: absolute;
+  /* position: absolute; */
   width: 1550px;
   height: 1294px;
   left: 0px;
