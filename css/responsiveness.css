@@ -84,4 +84,10 @@
   .about_us_text h1{
 
   }
+  footer{
+    transform: translateY(400px);
+    height: 350px;
+    overflow: hidden;
+    text-align: center;
+  }
 }
