@@ -7,13 +7,15 @@
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/responsiveness.css">
 
     <title>Manage3X</title>
   </head>
   <body>
     <!-- Nav bar -->
     <nav class="navbar">
-      <img src="img/IMG_20210325_182902_141.png" class="logo" />
+      <img src="img/logo.png" class="logo" />
       <ul>
         <li class="label"><a href="#">Home</a></li>
         <li class="label2"><a href="#">About us</a></li>
@@ -22,53 +24,93 @@
       </ul>
     </nav>
     <!-- Introduction -->
-    <div class="intro">
-      <h1 class="intro-text">Business management has never been so easy</h1>
-      <p>
-        The only app you’ll ever need to manage your business. Get all the
-        basics needed to manage your business seamlessly all in one place.
-      </p>
-      <div class="intro-btn">
-        <button type="button">Get started</button>
-      </div>
-      <div class="intro-img">
-        <img src="img/1.jfif" />
-      </div>
-    </div>
-    <!-- 3 image column, Stuck at this point, I'm yet to identify where my mistake is.-->
-    <!--     <div class="row">
-            <div class="column">
-              <img src="img/2.png">
+    <header>
+      <section class="intro big_p" >
+        <div class="row padding reverse">
+          <div class="col-1-of-2 v-center">
+            <div class="section_text intro_text">
+              <h1>Business management has never been so easy</h1>
+              <p>
+                The only app you’ll ever need to manage your business. Get all
+                the basics needed to manage your business seamlessly all in one
+                place.
+              </p>
+
+              <button class="btn">Get Started</button>
             </div>
-            <div class="column">
-              <img src="img/3.png">
-            </div>
-            <div class="column">
-              <img src="img/4.png">
-            </div>s
-          </div> -->
-    <main>
-      <!-- Manage3X SECTION -->
-      <section class="manag3x">
+          </div>
+
+          <div class="col-1-of-2">
+            <img src="img/1.jfif" alt="" class="img_fluid" />
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
         <div class="row">
-          <div class="col-1-of-3 v-center">
-            <p>User Friendly</p>
+          <div class="img_box">
+            <img src="img/2.png" alt="" class="img_fluid" />
           </div>
-          <div class="col-1-of-3 v-center">
-            <p>For SMEs</p>
+          <div class="img_box">
+            <img src="img/3.png" alt="" class="img_fluid" />
           </div>
-          <div class="col-1-of-3 v-center">
-            <p>Track Orders</p>
+          <div class="img_box">
+            <img src="img/4.png" alt="" class="img_fluid" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ABOUT US SECTION  -->
+      <h1 class="center big_title">About us</h1>
+
+      <section class="sections about_us">
+        <div class="row padding">
+          <div class="col-1-of-2 v-center pb_2">
+            <img src="img/5.png" alt="" class="img_fluid" />
+          </div>
+          <div class="col-1-of-2 v-center">
+            <div class="section_text about_us_text">
+              <h1 >
+                We are committed to giving you a seamless business management
+                experience.
+              </h1>
+              <p>
+                Our management software allows businesses to have their
+                operations on a digital platform to give them a seamless
+                experience. Manag3x helps business owners to manage their
+                finances, inventories, and logistics in one platform.
+              </p>
+
+              <button class="btn">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Manage3X SECTION -->
+      <h2 class="center big_title">Why Manag3x</h2>
+      <section class="manag3x v-center ">
+        <div class="container">
+          <div class="row s_evenly">
+            <div class="col-1-of-3 v-center">
+              <p>User Friendly</p>
+            </div>
+            <div class="col-1-of-3 v-center">
+              <p>For SMEs</p>
+            </div>
+            <div class="col-1-of-3 v-center">
+              <p>Track Orders</p>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- OUR SOLUTIONS SECTION  -->
+      <h1 class="center big_title">Our Solutions</h1>
 
       <section class="sections">
-        <h1 class="center section_title">Our Solutions</h1>
-        s
-        <p></p>
         <div class="row padding">
           <div class="col-1-of-2">
             <img src="img/6.png" alt="" class="img_fluid" />
@@ -92,7 +134,7 @@
 
       <!-- FINAMCE SECTION  -->
 
-      <section class="sections">
+      <section class="sections pb_2">
         <div class="row padding">
           <div class="col-1-of-2 v-center">
             <div class="section_text finance">
@@ -137,9 +179,9 @@
       </section>
 
       <!-- CONTACT US SECTION -->
+      <h1 class="center big_title form_title">Contact us</h1>
 
       <section class="section_form">
-        <h1 class="center section_title form_title">Contact us</h1>
         <div class="row padding">
           <div class="col-1-of-2 v-center">
             <div class="section_form_text">
@@ -162,17 +204,17 @@
           </div>
 
           <div class="col-1-of-2 v-center">
-            <img src="img/9.png" alt="" class="imgs_fluid" />
+            <img src="img/9.png" alt="" class="img_fluid" />
           </div>
         </div>
       </section>
 
       <!-- MOBILE INTRO SECTION -->
 
-      <section class="mobile_section">
+      <section class="mobile_section big_p">
         <div class="row">
           <div class="col-1-of-2 v-center">
-            <div class="mobile_text">
+            <div class="mobile_text section_text">
               <h2>Manage your business from your mobile</h2>
               <p>
                 Download our app to manage your businesss, keep track of the
@@ -181,12 +223,56 @@
               </p>
             </div>
           </div>
-          <div class="col-1-of-2 v-center">
-            <img src="img/11.png" alt="" class="img_fluid phone" />
-            <img src="img/10.png" alt="" class="img_fluid" />
+          <div class="col-1-of-2">
+            <div class="phone_box">
+              <!-- <img src="img/phone.png" alt="" class="img_fluid phone" /> -->
+            </div>
           </div>
         </div>
       </section>
+      <footer>
+        <div class="container big_p">
+          <div class="row wrap">
+            <div class="col-1-of-2 v-center">
+              <div class="section_text">
+                <img src="img/logo.png" alt="" class="img_fluid" />
+                <div class="row">
+                  <div class="div"><a href="">Download Now </a></div>
+                  <div class="div"><a href="">License</a></div>
+                </div>
+                <div class="row">
+                  <div class="footer_link">
+                    <a href=""> About </a>
+                  </div>
+                  <div class="footer_link">
+                    <a href=""> Features </a>
+                  </div>
+                  <div class="footer_link">
+                    <a href=""> Pricing </a>
+                  </div>
+                  <div class="footer_link">
+                    <a href=""> Careers </a>
+                  </div>
+                  <div class="footer_link">
+                    <a href=""> Help </a>
+                  </div>
+                  <div class="footer_link">
+                    <a href=""> Privacy Policy </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-1-of-2 v-center">
+              <div class="text">
+                <p>Get the App</p>
+              <p>
+                <button>Googleplay</button>
+              </p>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

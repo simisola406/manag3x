@@ -1,32 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
 * {
+  /* border: 1px solid red; */
   box-sizing: border-box;
 }
 html {
   font-size: 10px;
 }
-/* UTILITIES */
-.center {
-  text-align: center;
+body {
+  font-family: Manrope;
+  margin: 0;
 }
-.img_fluid {
-  max-width: 100%;
+.padding {
+  padding: 2rem ;
 }
-.row {
-  display: flex;
-  justify-content: space-evenly;
+.big_p{
+  padding-left: 4rem;
 }
-.col-1-of-2 {
-  width: 50%;
-}
-.v-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-button {
-  cursor: pointer;
-}
+
 /* BUTTON COMPONENT */
 
 .btn {
@@ -39,10 +29,67 @@ button {
   font-size: 2rem;
 }
 
-/* UTILITIES END */
+/*Nav bar styling*/
+.navbar {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 7.9rem;
+  left: 0px;
+  top: .1rem;
+  background: #0392ce;
+}
+.logo {
+  width: 12rem;
+  cursor: pointer;
+  margin-left: 4rem;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 5rem;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+/* INTRODUCTION PAGE  */
+header {
+  background-color: #0392ce;
+  height: 129.4rem;
+}
+.intro {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 65%, 0% 100%);
+  height: 60%;
+}
+.intro h1 {
+  width: 57.6rem;
+  color: #0392ce;
+}
+.intro_text {
+  width: 55.4rem;
+}
 
-body {
-  font-family: Manrope;
+/* general section  */
+section {
+  background: #ffffff;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+  display: blo;
+}
+
+/* ABOUT US STYLE  */
+.about_us {
+  background: #ffffff;
+  box-shadow: 0px 4px 50px #a6a6a6;
+}
+.about_us .section_text h1 {
+  color: #0392ce;
+  font-size: 4rem;
+  max-width: 59.6rem;
 }
 
 /*<!-- Manage3X SECTION -->*/
@@ -57,10 +104,10 @@ body {
   background: #0392ce;
   width: 30%;
   box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 .manag3x .col-1-of-3 p {
-  font-size: 48px;
+  font-size: 4.8rem;
   color: #fff;
   font-weight: 800;
 }
@@ -81,17 +128,18 @@ body {
 }
 
 .section_text p {
-  height: 160px;
-  width: 453px;
-  left: 48px;
-  top: 174px;
+  height: 16rem;
+  width: 45.3rem;
   font-size: 1.6rem;
 }
 
+/* FINACE STYLE  */
+
 .finance {
-  height: 160px;
-  width: 390px;
+  width: 39rem;
 }
+
+/* FORM STYLES  */
 
 .form_title {
   color: #012481;
@@ -125,18 +173,20 @@ textarea::placeholder {
   font-size: 1.8rem;
 }
 .section_form textarea {
-  height: 130px;
+  height: 13rem;
   outline: none;
   border: 1px solid #012481;
   padding: 2rem;
 }
+
+/* MOBILE APP SECTION STYLE  */
 
 .mobile_section {
   background: #c4c4c4;
   position: relative;
 }
 .mobile_section h2 {
-  max-width: 540px;
+  max-width: 54rem;
   color: #18191f;
   font-size: 4.8rem;
 }
@@ -149,4 +199,34 @@ textarea::placeholder {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: -1000;
+}
+.phone_box{
+  position: relative;
+}
+
+.phone_box .phone{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+footer{
+  padding: 3rem 0 2rem 0;
+  position: relative;
+  /* height: 189px; */
+  background-color: #012481;
+  color: #fff;
+  z-index: 10000;
+  color: #fff;
+  font-size: 1.8rem;
+}
+footer img{
+  width: 10rem;
+}
+footer a{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  margin: 1rem 2rem;
 }

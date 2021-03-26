@@ -1,0 +1,43 @@
+/* UTILITIES */
+.center {
+  text-align: center;
+}
+.img_fluid {
+  max-width: 100%;
+}
+.row {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.s_evenly{
+  justify-content: space-evenly;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.col-1-of-2 {
+  width: 50%;
+}
+.v-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  display: block;
+  width: 100%;
+}
+.pb_2 {
+  padding-bottom: 2rem;
+}
+.big_title {
+  font-weight: 800;
+  font-size: 48px;
+  padding: 1.5rem 0;
+  color: #a7194b;
+}
+
+/* UTILITIES END */
