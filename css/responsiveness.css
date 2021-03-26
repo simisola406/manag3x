@@ -90,4 +90,10 @@
     overflow: hidden;
     text-align: center;
   }
+  footer .row {
+    padding: 1.5rem 0;
+  }
+  footer .row .div {
+    padding-left: 12px;
+  }
 }
