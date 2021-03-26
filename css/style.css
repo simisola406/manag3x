@@ -40,6 +40,7 @@ body {
   left: 0px;
   top: .1rem;
   background: #0392ce;
+  overflow: hidden;
 }
 .logo {
   width: 12rem;
@@ -56,6 +57,13 @@ body {
   color: #fff;
   font-size: 1.8rem;
   font-weight: bold;
+}
+.navbar ul li a:hover {
+  background-color: #fff;
+}
+.navbar ul li a.active {
+  background-color: red;
+  color: #fff;
 }
 /* INTRODUCTION PAGE  */
 header {
@@ -78,7 +86,7 @@ header {
 section {
   background: #ffffff;
   box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
-  display: blo;
+  display: block;
 }
 
 /* ABOUT US STYLE  */
@@ -214,12 +222,15 @@ textarea::placeholder {
 footer{
   padding: 3rem 0 2rem 0;
   position: relative;
-  /* height: 189px; */
+  height: 189px;
   background-color: #012481;
   color: #fff;
-  z-index: 10000;
-  color: #fff;
   font-size: 1.8rem;
+  margin-top: 2rem;
+}
+img .undraw {
+  width: 100px;
+  height: 100px;
 }
 footer img{
   width: 10rem;

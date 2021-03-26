@@ -14,13 +14,16 @@
   </head>
   <body>
     <!-- Nav bar -->
-    <nav class="navbar">
+    <nav class="navbar" id="nav">
       <img src="img/logo.png" class="logo" />
+      <div class="drop-down" onclick="dropdownMenu()">
+        <i class="fa fa-bars"></i>
+      </div>
       <ul>
         <li class="label"><a href="#">Home</a></li>
-        <li class="label2"><a href="#">About us</a></li>
+        <li class="label2"><a href="#">About Us</a></li>
         <li class="label3"><a href="#">Services</a></li>
-        <li class="label4"><a href="#">Faqs</a></li>
+        <li class="label4"><a href="#">FAQs</a></li>
       </ul>
     </nav>
     <!-- Introduction -->
@@ -225,7 +228,7 @@
           </div>
           <div class="col-1-of-2">
             <div class="phone_box">
-              <!-- <img src="img/phone.png" alt="" class="img_fluid phone" /> -->
+              <img src="img/phone.png" alt="" class="img_fluid phone" />
             </div>
           </div>
         </div>
@@ -266,7 +269,7 @@
               <div class="text">
                 <p>Get the App</p>
               <p>
-                <button>Googleplay</button>
+                <img src="img/undraw_android_jr64.svg" class="undraw" alt="">
               </p>
               </div> 
             </div>
@@ -274,5 +277,6 @@
         </div>
       </footer>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
