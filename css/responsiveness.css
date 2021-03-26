@@ -86,14 +86,19 @@
   }
   footer{
     transform: translateY(400px);
-    height: 350px;
+    height: 550px;
     overflow: hidden;
     text-align: center;
   }
   footer .row {
     padding: 1.5rem 0;
   }
-  footer .row .div {
-    padding-left: 12px;
+  footer .row-footer {
+    padding-left: 1.5rem;
+  }
+  footer .row-links {
+    display: block;
+    justify-content: center;
+    text-align: center;
   }
 }
