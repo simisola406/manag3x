@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
-*{
-    box-sizing: border-box;
-    border:1px solid red;
+* {
+  box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 html {
   font-size: 10px;
@@ -14,6 +14,7 @@ html {
 }
 .row {
   display: flex;
+  justify-content: space-evenly;
 }
 .col-1-of-2 {
   width: 50%;
@@ -22,27 +23,31 @@ html {
   display: flex;
   align-items: center;
 }
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
+/* .padding {
+  width: 90%;
+  margin: 0 auto;
+} */
 body {
   font-family: Manrope;
 }
 
-.solution_title {
-    font-size: 4.8rem;
-    font-weight: 800;
-    color: #a7194b;
+.section_title {
+  font-size: 4.8rem;
+  font-weight: 800;
+  color: #a7194b;
 }
 
-.solution_text h1 {
+.section_text h1 {
   font-family: Manrope;
   font-size: 4rem;
   font-weight: 800;
   color: #a7194b;
 }
 
-.solution_text p {
+.section_text p {
   height: 160px;
   width: 453px;
   left: 48px;
@@ -58,4 +63,52 @@ body {
   color: #fff;
   border: none;
   font-size: 2rem;
+}
+
+.finance {
+  height: 160px;
+  width: 390px;
+}
+
+.form_title {
+  color: #012481;
+}
+
+.section_form_text {
+    padding: 5rem;
+}
+.section_form_text h3{
+    font-size: 3rem;
+    color: #c4c4c4;
+}
+.section_form form {
+  text-align: center;
+}
+.section_form_text form p{
+    margin: 4rem 0;
+}
+.section_form input,textarea {
+  font-size: 1.8rem;
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid #012481;
+  outline: none;
+}
+.section_form input::placeholder,textarea::placeholder {
+  color: #c4c4c4;
+  font-size: 1.8rem;
+}
+.section_form textarea {
+
+  
+  height: 130px;
+outline: none;
+  border: 1px solid #012481;
+  padding:  2rem ;
+
+}
+
+
+.mobile section{
+    background: #C4C4C4;
 }
