@@ -9,10 +9,10 @@
   display: flex;
   /* flex-wrap: wrap; */
 }
-.s_evenly{
+.s_evenly {
   justify-content: space-evenly;
 }
-.wrap{
+.wrap {
   flex-wrap: wrap;
 }
 .col-1-of-2 {
@@ -41,3 +41,15 @@ button {
 }
 
 /* UTILITIES END */
+
+.nav_bg {
+  background-color: #4aa0d7;
+}
+
+.linkrel a{
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 800;
+}
