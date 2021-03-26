@@ -86,7 +86,7 @@
   }
   footer{
     transform: translateY(400px);
-    height: 550px;
+    height: 600px;
     overflow: hidden;
     text-align: center;
   }
@@ -100,5 +100,8 @@
     display: block;
     justify-content: center;
     text-align: center;
+  }
+  footer img {
+    padding: 2rem 0;
   }
 }
