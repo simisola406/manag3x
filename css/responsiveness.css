@@ -14,32 +14,44 @@
   .section_text p {
     width: 35.3rem;
   }
+  .big_title{
+    font-size: 3.5rem;
+}
 }
 
 @media screen and (max-width: 480px) {
   html {
-    font-size: 7px;
+    font-size: 9px;
   }
-body{
-    background-color: red;
-}
+
   .row {
     flex-wrap: wrap;
   }
   header {
     height: 100%;
   }
-  .intro{
-
+  .intro {
   }
   .col-1-of-2 {
     width: 100%;
   }
   .section_text h1 {
-    /* font-size: 2.5rem; */
+    font-size: 2.5rem;
     width: 100%;
   }
   /* .reverse {
     flex-direction: column-reverse;
   } */
+  .manag3x{
+  height: 100%;
+
+  }
+  .big_title{
+      font-size: 3rem;
+  }
+
+  .col-1-of-3{
+      width: 100%;
+      margin: 2rem;
+  }
 }
