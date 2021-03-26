@@ -1,0 +1,45 @@
+@media screen and (max-width: 1023.99px) {
+  html {
+    font-size: 7px;
+  }
+  .section_text p {
+    width: 35.3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 4px;
+  }
+  .section_text p {
+    width: 35.3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 7px;
+  }
+body{
+    background-color: red;
+}
+  .row {
+    flex-wrap: wrap;
+  }
+  header {
+    height: 100%;
+  }
+  .intro{
+
+  }
+  .col-1-of-2 {
+    width: 100%;
+  }
+  .section_text h1 {
+    /* font-size: 2.5rem; */
+    width: 100%;
+  }
+  /* .reverse {
+    flex-direction: column-reverse;
+  } */
+}
