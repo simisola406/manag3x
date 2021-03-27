@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/utilities.css" />
-    <link rel="stylesheet" href="css/responsiveness.css">
+    <link rel="stylesheet" href="css/responsiveness.css" />
+    <link rel="stylesheet" href="css/w3.css" />
 
     <title>Manage3X</title>
   </head>
@@ -16,19 +17,39 @@
     <!-- Nav bar -->
     <nav class="navbar" id="nav">
       <img src="img/logo.png" class="logo" />
-      <div class="drop-down" onclick="dropdownMenu()">
+      <!-- <div class="drop-down" onclick="dropdownMenu()">
         <i class="fa fa-bars"></i>
-      </div>
+      </div> -->
       <ul>
-        <li class="label"><a href="#">Home</a></li>
-        <li class="label2"><a href="#">About Us</a></li>
-        <li class="label3"><a href="#">Services</a></li>
-        <li class="label4"><a href="#">FAQs</a></li>
+        <li class="w3-hide-small label"><a href="#">Home</a></li>
+        <li class="w3-hide-small label2"><a href="#">About Us</a></li>
+        <li class="w3-hide-small label3"><a href="#">Services</a></li>
+        <li class="w3-hide-small label4"><a href="#">FAQs</a></li>
+        <li>
+          <a
+            href="javascript:void(0)"
+            class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+            onclick="myFunction()"
+            >&#9776;</a
+          >
+        </li>
       </ul>
+
+     
     </nav>
+
+    <div
+    id="demo"
+    class="w3-bar-block linkrel w3-hide w3-hide-large w3-hide-medium nav_bg"
+  >
+   <a class="w3-bar-item col" href="#">Home</a>
+    <a class="w3-bar-item col" href="#">About Us</a>
+    <a class="w3-bar-item col" href="#">Services</a>
+    <a class="w3-bar-item col" href="#">FAQs</a>
+</div>
     <!-- Introduction -->
     <header>
-      <section class="intro big_p" >
+      <section class="intro big_p">
         <div class="row padding reverse">
           <div class="col-1-of-2 v-center">
             <div class="section_text intro_text">
@@ -75,7 +96,7 @@
           </div>
           <div class="col-1-of-2 v-center">
             <div class="section_text about_us_text">
-              <h1 >
+              <h1>
                 We are committed to giving you a seamless business management
                 experience.
               </h1>
@@ -94,7 +115,7 @@
 
       <!-- Manage3X SECTION -->
       <h2 class="center big_title">Why Manag3x</h2>
-      <section class="manag3x v-center ">
+      <section class="manag3x v-center">
         <div class="container">
           <div class="row s_evenly">
             <div class="col-1-of-3 v-center">
@@ -228,7 +249,7 @@
           </div>
           <div class="col-1-of-2">
             <div class="phone_box">
-              <img src="img/phone.png" alt="" class="img_fluid phone" />
+              <!-- <img src="img/phone.png" alt="" class="img_fluid phone" /> -->
             </div>
           </div>
         </div>
@@ -271,11 +292,20 @@
                 <p>Get the App</p>
                 <img src="img/undraw_android_jr64.svg" class="undraw" alt="">
               </div> 
-            </div>
+            </div> -->
           </div>
         </div>
       </footer>
     </main>
-    <script src="index.js"></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("demo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
   </body>
 </html>
