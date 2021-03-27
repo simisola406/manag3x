@@ -14,7 +14,7 @@
   html {
     font-size: 7px;
   }
-  .intro_text h1{
+  .intro_text h1 {
     width: 300px;
   }
   footer .row-links {
@@ -34,13 +34,14 @@
   html {
     font-size: 5px;
   }
-  .intro_text h1{
+  .intro_text h1 {
     width: 250px;
   }
   .section_text p {
     width: 35.3rem;
+    font-size: 1.8em;
   }
-  .big_title{
+  .big_title {
     font-size: 3.5rem;
   }
   .phone_box .phone{
@@ -66,9 +67,15 @@
   }
 
   /*** Navbar Responsiveness ***/
-.navbar {
-  height: 90px;
-}
+  .navbar {
+    height: 90px;
+  }
+  .menu {
+    margin-right: 2rem;
+  }
+  .navbar ul li a:hover {
+    background-color: transparent;
+  }
 
   .navbar ul li {
     width: 100px;
@@ -76,28 +83,29 @@
     margin: auto;
     display: block;
   }
-
+  .intro {
+    height: 80rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+  }
   .col-1-of-2 {
     width: 100%;
   }
+
   .section_text h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     width: 100%;
   }
-  /* .reverse {
-    flex-direction: column-reverse;
+  /* .section_text p {
+    font-size: 1.7rem;
   } */
-  .manag3x{
-  height: 100%;
-
+  .reverse {
+    flex-direction: column-reverse;
   }
-  .big_title{
-      font-size: 3rem;
+  .manag3x {
+    height: 100%;
   }
-
-  .col-1-of-3{
-      width: 100%;
-      margin: 2rem;
+  .big_title {
+    font-size: 3rem;
   }
   /*.about_us_text h1{
 

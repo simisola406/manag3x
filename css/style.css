@@ -11,9 +11,9 @@ body {
   margin: 0;
 }
 .padding {
-  padding: 2rem ;
+  padding: 2rem;
 }
-.big_p{
+.big_p {
   padding-left: 4rem;
 }
 
@@ -38,7 +38,7 @@ body {
   width: 100%;
   height: 7.9rem;
   left: 0px;
-  top: .1rem;
+  top: 0.1rem;
   background: #0392ce;
   overflow: hidden;
 }
@@ -64,6 +64,18 @@ body {
 .navbar ul li a.active {
   background-color: red;
   color: #fff;
+}
+
+.nav_bg {
+  background-color: #4aa0d7;
+}
+
+.linkrel a {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 800;
 }
 /* INTRODUCTION PAGE  */
 header {
@@ -96,7 +108,7 @@ section {
 }
 .about_us .section_text h1 {
   color: #0392ce;
-  font-size: 4rem;
+  font-size: 3.5rem;
   max-width: 59.6rem;
 }
 
@@ -123,20 +135,21 @@ section {
 /* OUR SOLUTION STYLE */
 
 .section_title {
-  font-size: 4.8rem;
+  /* font-size: 2rem; */
   font-weight: 800;
   color: #a7194b;
 }
 
 .section_text h1 {
   font-family: Manrope;
-  font-size: 4rem;
+  font-size: 4.8rem;
   font-weight: 800;
   color: #a7194b;
 }
 
 .section_text p {
-  height: 16rem;
+  /* height: 16rem; */
+  padding-bottom: 3.5rem;
   width: 45.3rem;
   font-size: 1.6rem;
 }
@@ -209,11 +222,15 @@ textarea::placeholder {
   transform: translate(-50%, -50%);
   z-index: -1000;
 }
-.phone_box{
+.phone_box {
   position: relative;
+  background-image: url(../img/phone.png);
+  background-repeat: no-repeat;
+  background-position: 50% 1rem;
+  /* background-size: c; */
 }
 
-.phone_box .phone{
+.phone_box .phone {
   position: absolute;
   top: 0;
   left: 50%;
@@ -237,7 +254,7 @@ footer img{
   width: 25rem;
   height: 10rem;
 }
-footer a{
+footer a {
   display: inline-block;
   color: #fff;
   text-decoration: none;
