@@ -20,8 +20,14 @@
   footer .row-links {
     display: block;
     padding: 3rem 5rem;
-    }
+  }
   
+}
+@media screen and (max-width: 753px) {
+  .phone_box .phone{
+    width: 28rem;
+  }
+
 }
 
 @media screen and (max-width: 680px) {
@@ -37,7 +43,14 @@
   .big_title{
     font-size: 3.5rem;
   }
-
+  .phone_box .phone{
+    width: 24rem;
+  }
+}
+@media screen and (max-width: 538px) {
+  .phone_box .phone{
+    width: 28rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
