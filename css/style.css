@@ -220,24 +220,48 @@ textarea::placeholder {
   transform: translate(-50%,0%);
 }
 footer{
+  display: flex;
   padding: 3rem 0 2rem 0;
   position: relative;
-  height: 189px;
-  background-color: #012481;
+  height: 450px;
+  background-color: #0392ce;
   color: #fff;
   font-size: 1.8rem;
-  margin-top: 2rem;
-}
-img .undraw {
-  width: 100px;
-  height: 100px;
+  margin-top: 0;
 }
 footer img{
-  width: 10rem;
+  margin: 10rem 0rem;
+  padding-right: 2rem;
+  width: 25rem;
+  height: 10rem;
 }
 footer a{
   display: inline-block;
   color: #fff;
   text-decoration: none;
   margin: 1rem 2rem;
+}
+footer .row-footer {
+  display: block;
+  padding: 10rem 2rem;
+}
+footer .section_text {
+  display: flex;
+}
+footer .get-app {
+  display: block;
+  text-align: center;
+}
+footer .get-app img .undraw {
+  padding: 2rem 3rem;
+  width: 500px;
+  height: 500px;
+  transform: translateY(-3rem);
+}
+footer .get-app p {
+  transform: translateY(3rem);
+}
+footer .row-links {
+  display: block;
+  padding: 3rem 5rem;
 }
