@@ -90,6 +90,10 @@
   .col-1-of-2 {
     width: 100%;
   }
+  .col-1-of-3{
+    width: 90%;
+    margin: 2rem;
+  }
 
   .section_text h1 {
     font-size: 3.5rem;
