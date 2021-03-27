@@ -1,4 +1,4 @@
-@media screen and (max-width: 1023.99px) {
+@media screen and (max-width: 1200px) {
   html {
     font-size: 7px;
   }
@@ -10,16 +10,27 @@
   }
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 810px) {
   html {
     font-size: 7px;
   }
   .intro_text h1 {
     width: 300px;
   }
+  footer .row-links {
+    display: block;
+    padding: 3rem 5rem;
+  }
+  
+}
+@media screen and (max-width: 753px) {
+  .phone_box .phone{
+    width: 28rem;
+  }
+
 }
 
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 680px) {
   html {
     font-size: 5px;
   }
@@ -32,6 +43,14 @@
   }
   .big_title {
     font-size: 3.5rem;
+  }
+  .phone_box .phone{
+    width: 24rem;
+  }
+}
+@media screen and (max-width: 538px) {
+  .phone_box .phone{
+    width: 28rem;
   }
 }
 
@@ -88,12 +107,31 @@
   .big_title {
     font-size: 3rem;
   }
+  /*.about_us_text h1{
 
-  .col-1-of-3 {
-    width: 100%;
-    margin: 2rem;
+  }*/
+  footer{
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 0;
   }
-  .btn {
-    width: 15.6rem;
+  footer .section_text {
+    display: block;
+    padding-top: 0;
+  }
+  footer .section_text img {
+    margin-bottom: 0;
+    margin-top: 5rem;
+  }
+  .v-center .get-app {
+    padding-top: 3rem;
+  }
+  .v-center .get-app p {
+    transform: translateY(8rem);
   }
 }
