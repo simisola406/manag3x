@@ -313,6 +313,7 @@ margin-bottom: 1rem;
 }
 .search_foot p{
   text-align: right;
+  font-size: 1.4rem;
 }
 footer{
   height: 16vh;
@@ -335,9 +336,17 @@ footer .icon_box{
   position: absolute;
   bottom: 2rem;
   right: 2rem;
+  
 
 }
 footer .icon_box i {
   display: inline-block;
   padding: 0 2rem;
+  
+}
+footer .icon_box  a {
+  padding: 0 1rem;
+  text-decoration: none;
+  font-size: 1.9rem;
+color: #666666;
 }
