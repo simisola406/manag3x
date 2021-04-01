@@ -21,13 +21,11 @@
     display: block;
     padding: 3rem 5rem;
   }
-  
 }
 @media screen and (max-width: 753px) {
-  .phone_box .phone{
+  .phone_box .phone {
     width: 28rem;
   }
-
 }
 
 @media screen and (max-width: 680px) {
@@ -44,12 +42,12 @@
   .big_title {
     font-size: 3.5rem;
   }
-  .phone_box .phone{
+  .phone_box .phone {
     width: 24rem;
   }
 }
 @media screen and (max-width: 538px) {
-  .phone_box .phone{
+  .phone_box .phone {
     width: 28rem;
   }
 }
@@ -63,12 +61,25 @@
     flex-wrap: wrap;
   }
   header {
-    height: 100%;
+    height: 90vh;
+  }
+  header {
+    height: 100vh;
+  }
+  header h1 {
+    font-size: 3rem;
+    word-break: normal;
+    margin-top: 0;
+    width: 100%;
+  }
+  header p {
+    font-size: 2rem;
+    width: 100%;
   }
 
   /*** Navbar Responsiveness ***/
   .navbar {
-    height: 90px;
+    height: 9vh;
   }
   .menu {
     margin-right: 2rem;
@@ -90,7 +101,7 @@
   .col-1-of-2 {
     width: 100%;
   }
-  .col-1-of-3{
+  .col-1-of-3 {
     width: 90%;
     margin: 2rem;
   }
@@ -108,34 +119,41 @@
   .manag3x {
     height: 100%;
   }
+
+  .manag3x .col-1-of-3 p  {
+    font-size: 3rem;
+  }
+  .img_box{
+    width: 10rem;
+    height: 10rem;
+  }
   .big_title {
     font-size: 3rem;
   }
-  /*.about_us_text h1{
-
-  }*/
-  footer{
-    margin-top: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 1000px;
-    overflow: hidden;
-    text-align: center;
-    padding-top: 0;
-  }
-  footer .section_text {
+  .pre_footer ul {
+    margin: 0 2rem;
+    padding: 0;
     display: block;
-    padding-top: 0;
   }
-  footer .section_text img {
-    margin-bottom: 0;
-    margin-top: 5rem;
+  .search_foot {
+    padding: 0 2rem;
+    width: 100%;
+    position: relative;
+    bottom: auto;
+    right: auto;
   }
-  .v-center .get-app {
-    padding-top: 3rem;
+  .copyright {
+    position: relative;
+    text-align: center;
+    left: 0rem;
   }
-  .v-center .get-app p {
-    transform: translateY(8rem);
+  footer .icon_box {
+    padding-top: 2rem;
+    font-size: 1.4rem;
+    position: relative;
+    text-align: center;
+  }
+  footer {
+    height: 100%;
   }
 }
