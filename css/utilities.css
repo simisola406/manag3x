@@ -37,7 +37,7 @@ button {
   font-weight: 800;
   font-size: 48px;
   padding: 1.5rem 0;
-  color: #a7194b;
+  color: #012481;
 }
 
 /* UTILITIES END */
@@ -64,7 +64,7 @@ button {
   z-index: 1; 
   top: 0;
   left: 0;
-  background-color: #012481; 
+  background-color: #3a549a; 
   overflow-x: hidden; 
   padding-top: 60px; 
   transition: 0.5s; 
