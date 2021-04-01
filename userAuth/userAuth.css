@@ -117,6 +117,7 @@ body {
 
 .terms{
 color: #0b3781;
+text-decoration: none;
 }
 .condition{
   padding-left: 1rem;
