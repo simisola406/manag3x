@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/utilities.css" />
     <link rel="stylesheet" href="css/responsiveness.css" />
 
     <title>Dashboard</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
+
 <!------------ SIDE NAV --------------->
         <nav class="side-nav" id="side_nav">
             <div id="mySidenav" class="sidenav">
@@ -44,34 +45,31 @@
             </div>
 
 
-<!-------- TOP NAV -------->
-            <div class="top-nav">
-                <span onclick="openNav()">&#9776;</span>
-            </div>
-        </nav>
-
-
-<!------ PAGE CONTENT ------->
-        <div id="main">
-            <div class="content-container">
-                <!------ INSERT ALL THE PAGE CONTENT HERE----->
-            </div>
+        <!-------- TOP NAV -------->
+        <div class="top-nav">
+          <span onclick="openNav()">&#9776;</span>
         </div>
+      </nav>
+
+      <!------ PAGE CONTENT ------->
+      <div id="main">
+        <div class="content-container">
+          <!------ INSERT ALL THE PAGE CONTENT HERE----->
+        </div>
+      </div>
     </div>
 
-
-
     <script>
-        function openNav() {
+      function openNav() {
         document.getElementById("mySidenav").style.width = "300px";
         document.getElementById("main").style.marginLeft = "300px";
-        }
+      }
 
-        /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
-        function closeNav() {
+      /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+      function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
         document.getElementById("main").style.marginLeft = "0";
-        }
-      </script>
-</body>
+      }
+    </script>
+  </body>
 </html>
