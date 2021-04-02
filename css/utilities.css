@@ -105,6 +105,9 @@ button {
   position: relative;
   display: inline-block;
 }
+.block {
+  display: block;
+}
 .dropdown-content {
   display: none;
   position: absolute;
