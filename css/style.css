@@ -19,7 +19,9 @@ body {
 .big_p {
   padding-left: 4rem;
 }
-
+.rounded {
+  border-radius: 0.5rem;
+}
 /* BUTTON COMPONENT */
 
 .btn {
@@ -69,7 +71,7 @@ body {
   font-weight: bold;
 }
 .navbar ul li a:hover {
-  background-color: #fff;
+  color: #012481;
 }
 .navbar ul li a.active {
   background-color: red;
@@ -83,10 +85,11 @@ body {
 }
 
 .nav_bg {
-  background-color: #4aa0d7;
+  background-color: #0b3781;
   position: absolute;
   width: 100%;
-  padding: 1rem 0;
+  top: 6.3rem;
+  /* padding: 1rem 0; */
 }
 
 .linkrel a {
@@ -124,7 +127,7 @@ header h1 {
   margin-top: 0;
   width: 50%;
 }
-header .top{
+header .top {
   margin-top: 5rem;
 }
 header p {
@@ -153,7 +156,9 @@ section {
 /*<!-- Manage3X SECTION -->*/
 
 .manag3x {
+  margin: 2rem 0;
   background: #f6e8ed;
+  padding: 2rem 0;
 }
 .col-1-of-3 {
   height: 30rem;
@@ -166,6 +171,13 @@ section {
   height: 15rem;
   border-radius: 50%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.img_box img {
+  width: 10rem;
 }
 .manag3x .col-1-of-3 p {
   font-size: 4.8rem;
@@ -213,7 +225,7 @@ section {
   color: #012481;
 }
 .section_form {
-  background-color: #f6e8ed;
+  background-color: #fcf8fa;
 }
 .section_form_text {
   /* padding: 5rem; */
@@ -221,7 +233,7 @@ section {
 }
 .section_form_text h3 {
   font-size: 3rem;
-  color: #3A549A;
+  color: #3a549a;
 }
 .section_form form {
   text-align: center;
