@@ -119,6 +119,9 @@
   .manag3x {
     height: 100%;
   }
+  .finance {
+    padding-left: 1rem;
+  }
 
   .manag3x .col-1-of-3 p  {
     font-size: 3rem;
