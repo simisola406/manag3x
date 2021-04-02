@@ -17,6 +17,7 @@
 }
 .col-1-of-2 {
   width: 50%;
+  padding-right: 2rem;
 }
 .col-1-of-3 {
   height: 30rem;

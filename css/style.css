@@ -133,7 +133,7 @@ header .top {
 header p {
   font-size: 2.4rem;
   width: 50%;
-  padding-left: 2rem;
+  padding-left: 0;
 }
 .header_text {
   padding: 0 5%;
@@ -292,6 +292,7 @@ textarea::placeholder {
   outline: none;
   background-color: #f6e8ed;
   border: none;
+  border-radius: 1rem;
 }
 .form_group button {
   padding: 1rem;
@@ -302,6 +303,7 @@ textarea::placeholder {
   border: none;
   outline: none;
   right: 0;
+  border-radius: 1rem;
 }
 .gold {
   position: relative;
