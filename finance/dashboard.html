@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/73888c59c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/utilities.css" />
+    <link rel="stylesheet" href="../css/responsiveness.css" />
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+<!------------ SIDE NAV --------------->
+        <nav class="side-nav" id="side_nav">
+            <div id="mySidenav" class="sidenav">
+                <div class="logo">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9776;</a>
+                    <img src="../img/logo.png">
+                </div>
+                <a href="#">Dashboard</a>
+                <a href="#">Finance</a>
+                <div class="dropdown">
+                    <a href="#">Inventory
+                        <div class="dropdown-content">
+                            <a href="#">Manage Products</a>
+                            <a href="#">Low Stock Reminder</a>
+                        </div>
+                    </a>
+                </div>
+                <a href="#">Logistics</a>
+                <a href="#">Calendar</a>
+            </div>
+
+
+<!-------- TOP NAV -------->
+            <div class="top-nav">
+                <span onclick="openNav()">&#9776;</span>
+            </div>
+        </nav>
+
+
+<!------ PAGE CONTENT ------->
+        <div id="main">
+            <div class="content-container">
+                <!------ INSERT ALL THE PAGE CONTENT HERE----->
+                <div class="welcome">
+                    <span><div class="img"><img src="../img/icons/store.png"></div> <h1>Millenial Shop</h1></span>
+                    <br>
+                    <p>Welcome to your finance dashboard</p>
+                </div>
+                <div class="content-wrapper">
+                    <div class="col-1-of-2">
+                        <h1>Total Revenue</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-1-of-4 profit">
+                            <div class="card-head">
+                                <p>Profit & Loss</p>
+                            </div>
+                        </div>
+                        <div class="col-1-of-4 budget">
+                            <div class="card-head">
+                                <p>Budget</p>
+                            </div>
+                        </div>
+                        <div class="col-1-of-4 income">
+                            <div class="card-head">
+                                <p>Income</p>
+                            </div>
+                        </div>
+                        <div class="col-1-of-4 sales">
+                            <div class="card-head">
+                                <p>Sales</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="row">
+                        <div class="col-1-of-4 invoice">
+                            <div class="card-head">
+                                <p>Invoice</p>
+                            </div>
+                        </div>
+                        <div class="col-1-of-4 bills">
+                            <div class="card-head">
+                                <p>Bills</p>
+                            </div>
+                        </div>
+                        <div class="col-1-of-4 goals">
+                            <div class="card-head">
+                                <p>Goals</p>
+                            </div>
+                        </div>
+                        <div class="col-1-of-4 invisible">
+                            <div class="card-head">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "30rem";
+        document.getElementById("main").style.marginLeft = "30rem";
+        document.getElementById("main").style.width = "130rem";
+        }
+
+        /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+        document.getElementById("main").style.width = "160rem";
+        }
+      </script>
+</body>
+</html>
